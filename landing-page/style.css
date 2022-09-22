@@ -35,6 +35,8 @@ button {
     padding-bottom: 100px;
 }
 
+/*--------------------First Container------------------------------*/
+
 .container-1 {
     padding-left: 200px;
     padding-right: 200px;
@@ -55,46 +57,68 @@ button {
     color: #F9FAF8;
 }
 
+.navigation-links {
+    font-size: 18px;
+    color: #8f94a0;
+}
+
+.intro-content {
+    display: flex;
+    flex-grow: 0.90;
+    flex-wrap: wrap;
+}
+
+.intro-website {
+    display: flex;
+    flex: 0.50;
+    min-width: 200px;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-right: 20px;
+}
+
 .intro-website p {
     margin: 0px;
+}
+
+.intro-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
+}
+
+.intro-paragraph {
+    font-size: 18px;
+    color: #8f94a0;
+}
+
+.intro-image {
+    display: flex;
+    flex: 0.50;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 124, 144);
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .intro-image p {
     color: #F9FAF8;
 }
 
-.container-2,
-.container-3 {
+/*--------------------Second Container------------------------------*/
+
+.container-2 {
     align-items: center;
     justify-content: center;
 }
 
-.container-3 {
-    background-color: #E5E7EB;
-    padding: 100px 0px 100px 0px;
-}
-
-.author {
-    text-align: right;
-}
-
-.quote-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-width: 200px;
-    max-width: 800px;
-    gap: 0px;
-}
-
-.quote {
+.information-header-text {
     font-size: 36px;
-    font-style: italic;
-}
-
-.author {
-    font-size: 20px;
-    font-weight: bold;
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 .information-containers {
@@ -110,12 +134,6 @@ button {
     color: grey;
 }
 
-.information-header-text {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: bolder;
-}
-
 .information-box{
     border: solid #3882F6 4px;
     border-radius: 10px;
@@ -128,43 +146,41 @@ button {
     width: 150px;
 }
 
-.intro-text {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8
-}
+/*--------------------Third Container------------------------------*/
 
-.navigation-links,
-.intro-paragraph {
-    font-size: 18px;
-    color: #8f94a0;
-}
-
-.intro-content {
-    display: flex;
-    flex-grow: 0.90;
-    flex-wrap: wrap;
-}
-
-.intro-website,
-.intro-image {
-    display: flex;
-    flex: 0.50;
-    min-width: 200px;
-    min-height: 200px;
-}
-.intro-website {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    padding-right: 20px;
-}
-
-.intro-image {
-    justify-content: center;
+.container-3 {
     align-items: center;
-    background-color: rgb(106, 124, 144);
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 0px 100px 0px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    max-width: 800px;
+    gap: 0px;
+}
+
+.quote-container p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------Fourth Container------------------------------*/
 
 .container-4 {
     display: flex;
@@ -214,10 +230,7 @@ button {
     border-radius: 10px;
 }
 
-.quote-container p {
-    margin: 0px;
-    padding: 0px;
-}
+/*--------------------Fifth Container------------------------------*/
 
 .container-5 {
     background-color: #1F2937;
